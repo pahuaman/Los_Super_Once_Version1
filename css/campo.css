@@ -1,0 +1,59 @@
+﻿body
+{
+    background: url(../images/campo.jpg) no-repeat center top;
+    background-size: 1300px 520px; 
+    background-color: #246907;
+    background-position-y: 90%;
+}
+
+header{
+    display:flex;
+}
+
+header div{
+    background-size: 600px 200px;
+    float:right;
+    margin-left: 100px;
+}
+
+header div a{
+    padding: 10px 30px;
+}
+
+header ul{
+    list-style: none;
+}
+
+header ul li{
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 0px 30px;
+}
+
+header ul a{
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+header ul a:hover{
+    color: #808080;
+}
+
+.cambios a{
+    padding: 4px 4px;
+}
+
+.cambios img:hover{
+    background-color: #ffd800;
+    
+}
+
+.cambios p{
+    color: #ffffff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}

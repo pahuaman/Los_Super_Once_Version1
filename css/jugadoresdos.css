@@ -1,0 +1,50 @@
+﻿.jugadores{
+    display: flex;
+}
+
+.portero ul{
+    list-style: none;
+    padding: 170px 50px;
+}
+
+.defensa ul{
+    list-style: none;
+    padding: 10px 80px;
+    margin-top: -10px;
+}
+
+.defensa ul li{
+    padding: 10px 0;
+}
+
+.contencion ul{
+    list-style: none;
+    padding: 120px 80px;
+}
+
+.contencion li{
+    padding: 10px 0;
+}
+
+.volantes ul{
+    list-style: none;
+    padding: 10px 80px;
+    margin-top: 30px;
+}
+
+.volantes ul li{
+    padding: 20px 0;
+}
+
+.delanteros ul{
+    list-style: none;
+    padding: 170px 50px;
+}
+
+.delanteros ul li{
+    /*padding: 10px 0;*/
+}
+
+.jugadores div ul img:hover{
+    background-color: #0094ff;
+}
